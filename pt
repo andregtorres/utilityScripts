@@ -95,8 +95,8 @@ xkb_symbols "ptcz" {
     key <AB03> { [  c,          C,                ccaron,	    Ccaron   ] };
     key <AD07> { [  u,          U,                uring,      NoSymbol ] };
     key <AB01> { [  z,          Z,                zcaron,     Zcaron   ] };
-    key <AC08> { [  s,          S,                scaron,     Scaron   ] };
-    key <AC09> { [  r,          R,                rcaron,     Rcaron   ] };
+    key <AC02> { [  s,          S,                scaron,     Scaron   ] };
+    key <AD04> { [  r,          R,                rcaron,     Rcaron   ] };
 };
 
 
