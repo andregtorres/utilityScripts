@@ -76,9 +76,9 @@ xkb_symbols "ptpl" {
 
     include "pt(basic)"
     name[Group1]= "Portuguese (Polish)";
-	
+
 	key <AD03> { [            e,               E,             EuroSign,         EuroSign ] };
-    	key <AC01> { [            a,               A,             aogonek,         	Aogonek	] };
+  key <AC01> { [            a,               A,             aogonek,         	Aogonek	] };
 	key <BKSL> { [            dead_tilde, dead_circumflex,  dead_ogonek ] };
 	key <AB03> { [            c,               C,           cacute,	Cacute ] };
 	key <AB01> { [            z,      Z,         zabovedot, Zabovedot] };
@@ -90,10 +90,13 @@ xkb_symbols "ptcz" {
 
     include "pt(basic)"
     name[Group1]= "Portuguese (Czech)";
-
-	key <BKSL> { [            dead_tilde, dead_circumflex,  dead_caron ] };
-	key <AB03> { [            c,               C,           ccaron,	Ccaron ] };
-	key <AD07> { [         u,          U,     uring,     NoSymbol ] };
+    key <AD03> { [  e,          E,                ecaron,     EuroSign ] };
+    key <BKSL> { [  dead_tilde, dead_circumflex,  dead_caron           ] };
+    key <AB03> { [  c,          C,                ccaron,	    Ccaron   ] };
+    key <AD07> { [  u,          U,                uring,      NoSymbol ] };
+    key <AB01> { [  z,          Z,                zcaron,     Zcaron   ] };
+    key <AC08> { [  s,          S,                scaron,     Scaron   ] };
+    key <AC09> { [  r,          R,                rcaron,     Rcaron   ] };
 };
 
 
