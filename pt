@@ -18,6 +18,8 @@ xkb_symbols "basic" {
     key <AC11> { [     masculine,     ordfeminine,dead_circumflex,       dead_caron ] };
 
     key <LSGT> { [          less,         greater,      backslash,        backslash ] };
+    # Delete key is gone, add workaround
+    key <BKSP> {   [ BackSpace, Delete  ]   };
 
     include "level3(ralt_switch)"
 };
@@ -77,7 +79,7 @@ xkb_symbols "ptpl" {
     include "pt(basic)"
     name[Group1]= "Portuguese (Polish)";
 
-	key <AD03> { [            e,               E,             EuroSign,         EuroSign ] };
+	key <AD03> { [            e,               E,             eogonek,         Eogonek ] };
   key <AC01> { [            a,               A,             aogonek,         	Aogonek	] };
 	key <BKSL> { [            dead_tilde, dead_circumflex,  dead_ogonek ] };
 	key <AB03> { [            c,               C,           cacute,	Cacute ] };
